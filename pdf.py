@@ -9,7 +9,7 @@ Created on Fri Jul  3 17:01:01 2020
 import PyPDF2 
 
 # creating a pdf file object 
-pdfFileObj = open('C:/Users/RjkG/Desktop/machine learning/The_Living_World.pdf', 'rb') 
+pdfFileObj = open('The_Living_World.pdf', 'rb') 
 
 # creating a pdf reader object 
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj) 
